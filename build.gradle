@@ -12,8 +12,6 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
 
-    // https://mvnrepository.com/artifact/org.apache.zookeeper/zookeeper
-    compile group: 'org.apache.zookeeper', name: 'zookeeper', version: '3.4.6', ext: 'pom'
 
     // https://mvnrepository.com/artifact/jline/jline
     compile group: 'jline', name: 'jline', version: '0.9.94'
@@ -26,6 +24,10 @@ dependencies {
 
     // https://mvnrepository.com/artifact/io.netty/netty
     compile group: 'io.netty', name: 'netty', version: '3.7.0.Final'
+
+    // https://mvnrepository.com/artifact/org.apache.zookeeper/zookeeper
+    compile group: 'org.apache.zookeeper', name: 'zookeeper', version: '3.3.3'
+
 
 
 
